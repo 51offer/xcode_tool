@@ -1,7 +1,9 @@
 源自[唐巧的snippets](https://github.com/tangqiaoboy/xcode_tool)
+做了一些修改
+更符合自身使用
 
 - Usage:
 	
-	1. git clone https://github.com/PeterPan507/xcode_tool
-	2. cd xcode_tool
-	3. ./setup_snippets.sh
+	- > git clone https://github.com/PeterPan507/xcode_tool
+	- > cd xcode_tool
+	- > ./setup_snippets.sh
