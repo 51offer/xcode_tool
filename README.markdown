@@ -4,6 +4,6 @@
 
 - Usage:
 	
-	- > git clone https://github.com/PeterPan507/xcode_tool
-	- > cd xcode_tool
-	- > ./setup_snippets.sh
+	-  git clone https://github.com/PeterPan507/xcode_tool
+	-  cd xcode_tool
+	-  ./setup_snippets.sh
