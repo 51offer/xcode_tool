@@ -3,24 +3,40 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>init</string>
+	<string>pmvc</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>CodeBlock</string>
+		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>    self = [super init];
-    if (self) {
-    }
-    return self;</string>
+	<string>#pragma mark - class methods
+
+#pragma mark - life cycle
+- (void)viewWillAppear:(BOOL)animated
+{
+    [super viewWillAppear:animated];
+}
+
+- (void)viewDidLoad
+{
+    [super viewDidLoad];
+}
+
+#pragma mark - &lt;#SystemDelegate#&gt;
+
+#pragma mark - &lt;#CustomDelegate#&gt;
+
+#pragma mark - event response
+
+#pragma mark - private methods
+
+#pragma mark - getters &amp; setters</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>93934053-BDF5-48C3-8B7F-08EB04D69442</string>
+	<string>92E01AB9-5DE6-41F5-92A4-DB7602585FD7</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
-	<key>IDECodeSnippetSummary</key>
-	<string>init code</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>init code</string>
+	<string>pmvc</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
