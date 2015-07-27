@@ -8,6 +8,6 @@
 	- setup_snippets.sh将git仓库中的codesnippets替换原先的Xcode的codesnippets
 - Usage:
 	
-	-  git clone https://github.com/PeterPan507/xcode_tool
+	-  git clone git@github.com:51offer/xcode_tool.git
 	-  cd xcode_tool
 	-  ./setup_snippets.sh
