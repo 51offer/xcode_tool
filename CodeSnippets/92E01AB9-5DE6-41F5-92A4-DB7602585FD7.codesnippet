@@ -12,10 +12,6 @@
 	<string>#pragma mark - class methods
 
 #pragma mark - life cycle
-- (void)viewWillAppear:(BOOL)animated
-{
-    [super viewWillAppear:animated];
-}
 
 - (void)viewDidLoad
 {
@@ -35,6 +31,8 @@
 	<string>92E01AB9-5DE6-41F5-92A4-DB7602585FD7</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>pragma mark for UIViewController</string>
 	<key>IDECodeSnippetTitle</key>
 	<string>pmvc</string>
 	<key>IDECodeSnippetUserSnippet</key>
